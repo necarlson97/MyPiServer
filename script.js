@@ -8,9 +8,7 @@ window.onload = function() {
 }
 
 function nextAvatar() {
-    console.log("CALLED");
     if(avatarMoving) return;
-    console.log("MOVING");
     
     avatarMoving = true;
     avatarIndex = (avatarIndex + 1) % avatarCount;
@@ -20,7 +18,6 @@ function nextAvatar() {
 }
 
 function avatarStill() {
-    console.log("DONE");
     avatar.src = "img/avatar"+avatarIndex+".png";
     avatarMoving = false;
 }
