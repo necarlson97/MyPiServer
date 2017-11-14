@@ -1,12 +1,10 @@
 body {
     color: white;
     font-family: "Helvetica";
-    background-color: 111111;
+    background-color: black;
 }
 
 #avatar {
-    image-rendering: pixelated;
-    width: 200px;
     margin: 0px;
     padding: 0px;
     padding-left: 2%;
