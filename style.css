@@ -1,0 +1,31 @@
+body {
+    color: white;
+    font-family: "Helvetica";
+    background-color: 3D3D3D;
+}
+
+#avatar {
+    image-rendering: pixelated;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2%;
+}
+
+#name {
+    font-size: 100px;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 0px;
+    white-space: nowrap;
+    margin: 0px;
+    display: inline;
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 2%;
+    border: 2px solid white;
+    width: 96%;
+}
