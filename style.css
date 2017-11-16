@@ -8,6 +8,8 @@ body {
     margin: 0px;
     padding: 0px;
     padding-left: 2%;
+    width: 128px;
+    image-rendering: pixelated;
 }
 
 #name {
