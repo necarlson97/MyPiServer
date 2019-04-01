@@ -15,7 +15,6 @@ body {
 
 #modal {
     display: block;
-    /*display: none;*/
     overflow: auto;
     background-color: white;
 
